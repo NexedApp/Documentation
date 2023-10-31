@@ -4,8 +4,9 @@
 
 <instance-profile id="student"
                  name="Student"
-                 start-page="student.md">
+                 start-page="Welkom.topic">
 
+    <toc-element topic="Welkom.topic"/>
     <toc-element topic="student.md">
         <toc-element topic="Blast.topic"/>
         <toc-element topic="Credits.topic"/>
