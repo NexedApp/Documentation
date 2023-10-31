@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="BLAST" id="Blast">
+
+    <p>Als je een uitwerking van een exercise inlevert, wil je feedback krijgen. Dit gebeurt binnen %product% op twee manieren: reviews van mede-%students% en automatische testen. BLAST is verantwoordelijk voor het uitvoeren van deze automatische testen.</p>
+    <p>BLAST is een afkorting voor <b>Basic Linter And Software Tester</b>. Zoals de naam al aangeeft, doet BLAST 2 dingen: linten en testen.</p>
+
+    <chapter title="Linters" id="blast-linters">
+        <note>Dit hoofdstuk is alleen van toepassing op exercises waarin code moet worden ingeleverd.</note>
+        <p>Linten is het controleren van de kwaliteit van code, zonder naar de uitwerking te kijken. Denk hierbij aan het
+        controleren of de haakjes `{` of `}` op de juiste plek staan.</p>
+        <p>BLAST is zelf geen linter, maar gebruikt bestaande, industrie standaard, linters om tot zijn conclusies te komen. De foutmeldingen
+        die BLAST laat zien, komen dus niet van BLAST zelf, maar van deze bestaande tools. Als beginnend developer zijn deze foutmeldingen
+        daarom vaak lastig om te lezen, maar met tijd went dit vanzelf.</p>
+        <p>Hieronder een overzicht van de verschillende talen die BLAST support en de linter die per taal worden gebruikt:</p>
+        <table>
+            <tr>
+                <td>Taal</td>
+                <td>Tool</td>
+                <td>Regelset</td>
+            </tr>
+            <tr>
+                <td>C#</td>
+                <td><a href="https://github.com/dotnet/format">dotnet-format</a></td>
+                <td>Standaard</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td><a href="https://github.com/checkstyle/checkstyle">Checkstyle</a></td>
+                <td><code-block src="ruleset_java.xml" lang="xml" collapsible="true"></code-block></td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td><a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP_CodeSniffer</a></td>
+                <td><code-block src="ruleset_php.xml" lang="xml" collapsible="true"></code-block></td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td><a href="https://eslint.org/">Eslint</a></td>
+                <td><code-block src="ruleset_javascript.js" lang="javascript" collapsible="true"></code-block></td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td><a href="https://validator.github.io/validator/">v.Nu</a></td>
+                <td>Standaard</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td><a href="https://validator.github.io/validator/">v.Nu</a></td>
+                <td>Standaard</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td><a href="https://github.com/cweiske/php-sqllint">php-sqllint</a></td>
+                <td>Standaard</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td><a href="https://pypi.org/project/pylint/">Pylint</a></td>
+                <td><code-block src="ruleset_python.pylintrc" collapsible="true"></code-block></td>
+            </tr>
+            <tr>
+                <td>Jupyter notebook</td>
+                <td>Custom</td>
+                <td><code-block src="ruleset-jupyter.py" lang="python" collapsible="true"></code-block></td>
+            </tr>
+        </table>
+        <tip><p>Installeer bovenstaande linters op je eigen machine zodat je jouw code kan testen zonder het in te leveren in %product%. Dit scheelt
+        veel tijd (en frustratie) tijdens het inleverproces!</p></tip>
+
+        <chapter title="Fout gevonden?">
+            <p>Als één van de linting tools een fout detecteerd, dan wordt je inlever poging afgekeurd en wordt de fout weergegeven op de pagina. Alle fouten hebben een vaste opbouw, zoals te zien in de screenshot hieronder:</p>
+            <img src="blast-linting-error.png" alt="Blast linting error"/>
+            <p>Kijk goed naar de 'regel' en 'kolom' cijfers, want die geven precies aan waar je fout zit. Mocht je de 'fout' niet begrijpen, dat kan je hem googlen. Omdat BLAST standaard tools gebruikt, kan je
+            online veel informatie vinden over de foutmeldingen.</p>
+        </chapter>
+    </chapter>
+
+    <chapter title="Testen" id="blast-tests">
+        <p>Naast dat je uitwerking er goed uit moet zien, moet hij ook voldoen aan de eisen van de exercise. Dit kan zijn dat je bepaalde technieken heb gebruikt (of juist verboden technieken niet)
+        en dat je uitwerking met de juiste input de juiste output geeft. </p>
+        <p>Per exercise zijn er testen geschreven die jouw uitwerking downloaden, uitvoeren en de output verifieren.</p>
+        <tip><p>De controles van deze testen zijn vaak heel gevoelig. Let dus goed op dat hoofdletters en spaties precies overeenkomen met de verwachte uitkomst.</p>
+            <p>Als Blast als uitkomst <b>"Het getal is 5."</b> verwacht, maar jouw uitkomst is <b>"het getal is 5"</b>, dan faalt de test op 2 punten. <emphasis>"Het"</emphasis> moet met een hoofdletter, en je zin
+            eindigt niet met een punt.</p></tip>
+
+        <chapter title="Fout gevonden?">
+            <p>Als één van de tests een fout detecteerd, dan wordt je inlever poging afgekeurd en wordt de fout weergegeven op de pagina. Alle fouten hebben een vaste opbouw, zoals te zien in de screenshot hieronder:</p>
+            <img src="blast-test-issue.png" alt="Blast test error"/>
+            <p>De titel is een korte omschrijving van wat BLAST verwacht dat je doet. In dit geval verwacht BLAST dus dat we een variabele genaamd hoofdstad maken. De menselijke foutmelding geeft iets uitgebreider aan wat BLAST van je verwacht. Deze staat er niet altijd bij, omdat de titel soms al genoeg informatie geeft. In de technische foutmelding zie je wat er onder de motorkap gebeurt.</p>
+            <note>Snap je een foutmelding niet? Vraag het dan aan je coach. Foutmeldingen kunnen voor nieuwe %students% soms lastig te lezen zijn!</note>
+        </chapter>
+    </chapter>
+</topic>

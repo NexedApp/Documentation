@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Credits" id="Credits">
+
+    <p>Credits zijn virtuele punten die de verhouding tussen het maken van exercises en het reviewen van mede-%students% helpen bewaken.</p>
+
+    <p>Bovenin de menubalk kan je jouw huidige credit balans zien: </p>
+    <img src="credits.png" alt="Credits"/>
+
+    <p>Het doen van reviews van de uitwerkingen van mede-%students% is een cruciaal onderdeel van het leren van een nieuwe vaardigheid. Door het reviewen
+    leer je niet alleen zelf een oplossing te maken, maar ook die van een ander te beoordelen. Je doet inspiratie op (omdat de uitwerking compleet anders
+    kan zijn dat je eigen uitwerking) en leert feedback te geven. </p>
+    <p>Helaas hebben veel %students% de voorkeur om zelf exercises te maken in plaats van deze te reviewen van mede-%students%. Om te zorgen
+    dat er ook voldoende reviews worden uitgevoerd, zijn credits geïntroduceerd.</p>
+    <chapter title="Opzet" id="credits-flow">
+        De basis opzet is als volgt: elk nieuw account begint met <b>3 credits</b>. Het inleveren van een exercise die gereviewed moet worden door een mede-%student% kost <b>1 credit</b>. Het doen
+        van een review (ongeacht de uitkomst) levert de reviewer <b>1 credit</b> op. Als je geen credits meer hebt, moet je eerst reviews uitvoeren, voordat je weer exercises kan inleveren.
+    </chapter>
+    <chapter title="Uitzonderingen" id="credits-uitzonderingen">
+        <table>
+            <tr>
+                <td>Type</td>
+                <td>Omschrijving</td>
+                <td>Icon</td>
+            </tr>
+            <tr>
+                <td>Unlimited credits</td>
+                <td>Het kan voorkomen dat je 0 credits hebt en een exercise wilt inleveren, maar dat er geen reviews beschikbaar zijn om op te pakken. In dit scenario kan je, ondanks dat je 0 credits hebt, je exercise alsnog inleveren.
+                    In je menu balk kan je dit zien doordat je credit weergave is veranderd.</td>
+                <td><img src="credits-unlimited.png" alt="Unlimited credits"/></td>
+            </tr>
+            <tr>
+                <td>Negatieve credits</td>
+                <td><p>Coaches voeren <a href="Steekproeven.topic">steekproeven</a> uit op reviews. Als een steekproef wordt afgekeurd, is de consequentie dat de reviewer credits verliest. Het kan hierdoor voorkomen dat je credit balans negatief wordt.
+                    Dit is eenvoudig te corrigeren door meerdere reviews uit te voeren.</p>
+                <tip>Ook met negatieve credits kan je in de 'unlimited credits' status terecht komen</tip></td>
+                <td><img src="credits-negative.png" alt="Negative credits"/></td>
+
+            </tr>
+        </table>
+    </chapter>
+</topic>

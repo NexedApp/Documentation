@@ -6,5 +6,8 @@
                  name="Student"
                  start-page="student.md">
 
-    <toc-element topic="student.md"/>
+    <toc-element topic="student.md">
+        <toc-element topic="Blast.topic"/>
+        <toc-element topic="Credits.topic"/>
+    </toc-element>
 </instance-profile>
