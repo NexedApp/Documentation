@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Exercises" id="Exercises">
+
+    <snippet id="introduction">
+        <p>Exercises zijn de kleinste leereenheid in %product%. Exercises leren je nieuwe vaardigheden aan of laten
+            je extra oefenen met bepaalde concepten. Exercise zijn de kern van %product% en je zult je meeste tijd
+            bezig zijn met het maken (en reviewen) hiervan.</p>
+        <p>Hieronder zie je een voorbeeld van een exercise:</p>
+        <video src="exercise.mp4" preview-src="exercise-preview.png"/>
+    </snippet>
+
+    <snippet id="types">
+        <chapter title="Exercise types" id="exercise-types">
+            <p>Er zijn 3 verschillende type exercises, elk met hun eigen doel: </p>
+            <list>
+                <li><b>Theorie:</b> voor opdoen van nieuwe kennis</li>
+                <li><b>Praktijk:</b> voor het opdoen en oefenen van nieuwe vaardigheden</li>
+                <li><b>Self diagnostic:</b> voor het zelfstandig testen van je nieuwe kennis</li>
+            </list>
+
+            <chapter title="Theorie exercises" id="exercise-type-theory">
+
+                <p>Het doel van een theorie exercise is om je nieuwe informatie aan te reiken waar je vervolgens in de
+                    volgende exercise(s) mee gaat oefenen.</p>
+                <p>Theorie exercises bestaan uit verschillende onderdelen:</p>
+
+                <table style="header-column">
+                    <snippet id="exercise-parts">
+                        <tr>
+                            <td>Omschrijving</td>
+                            <td>
+                                <p>Beschrijft het scenario waarin je gaat werken. Hierin wordt de exercise uitgelegd en
+                                    de
+                                    stappen benoemd
+                                    die je moet nemen om de exercise af te ronden.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Leerdoelen</td>
+                            <td>Wat je na deze exercise kunt en kent. De leerdoelen zijn opgesteld volgens de
+                                <a nullable="true"
+                                   href="https://talentstimuleren.nl/thema/stimulerend-signaleren/rijke-leeractiviteiten/bloom"
+                                   summary="Meer informatie over de Taxonomy van Bloom">Taxonomy van Bloom</a>
+                                en geven daarmee het beheersingsniveau wat je moet behalen aan het einde van de
+                                exercise.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Technieken</td>
+                            <td><p>Nieuwe kennis word je aangereikt via de techniek-blokken. Elke techniek bestaat uit
+                                een titel, een korte omschrijving en een link naar een externe bron met meer
+                                uitleg. </p>
+                                <p>Het is erg belangrijk om door te klikken naar de externe bron. Hier staat namelijk de
+                                    voorbeelden
+                                    en uitleg van de nieuwe techniek.</p>
+                                <img src="exercise-techniek.png" alt="Exercise Techniek example" width="200"/>
+                                <p>Technieken kunnen 'nieuw', 'herhaald' of 'verboden' zijn. Dit is aangegeven met hun
+                                    kleur. </p>
+                                <p>Nieuwe en herhaalde
+                                    technieken geven technieken die je moet gebruiken in de uitwerking van de exercise.
+                                    Verboden
+                                    technieken mag
+                                    je <b>niet</b> gebruiken. Gebruik je deze wel? Dan zal je exercise afgekeurd worden.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Video</td>
+                            <td>Naast technieken worden nieuwe concepten uitgelegd in video's. Ook hier geldt: bekijk de
+                                video voordat
+                                je met de exercise begint.
+                                Nieuwe kennis die je nodig hebt, wordt vaak in de video behandeld.
+                            </td>
+                        </tr>
+                    </snippet>
+                </table>
+            </chapter>
+
+            <chapter title="Praktijk exercises" id="exercise-type-regular">
+                <p>Het doel van een praktijk exercise is om te oefenen met nieuwe vaardigheden of bestaande vaardigheden
+                    te verfijnen door er extra mee te oefenen.</p>
+                <note>Praktijk exercise bevatten meestal nieuwe theorie, dus lees eerst de nieuwe technieken goed door
+                    en bekijk de video's voordat je aan je uitwerking begint!
+                </note>
+                <p>Praktijk exercises bestaan uit verschillende onderdelen:</p>
+
+                <table style="header-column">
+                    <include from="Exercises.topic" element-id="exercise-parts"/>
+                    <tr>
+                        <td>Verwachte uitkomst</td>
+                        <td>Hier zie je een voorbeeld van de verwachte uitkomst. Dit kan zowel een statische afbeelding
+                            zijn, als een gifje. Probeer
+                            altijd de verwachte uitkomst zo precies mogelijk na te bouwen. Dit is waar reviewers op
+                            letten bij het nakijken van je uitwerking.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nakijkcriteria</td>
+                        <td><p>Exercises worden gereviewed door zowel mede-studenten als coaches. Als een exercise
+                            gereviewed wordt, dan staan er
+                            onderaan de exercise nakijkcriteria. Dit is een checklist die de reviewer afloopt om te
+                            kijken of je exercise goed is uitgevoerd.</p>
+                            <p>Om niet voor verrassingen te komen te staan, krijg je als auteur van de exercise ook deze
+                                nakijkcriteria alvast te zien.</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Naast de inhoud van een exercise is er ook informatie over de eigenschappen beschikbaar. Dit is geen
+                    'inhoudelijke' informatie over de exercise, maar wel erg belangrijk om de exercise goed af te kunnen
+                    ronden.</p>
+                <table style="header-column">
+                    <tr>
+                        <td>Minimaal in te leveren bestanden</td>
+                        <td>Je moet minstens deze bestanden inleveren om de exercise te kunnen afronden</td>
+                    </tr>
+                    <tr>
+                        <td>Handmatig uploaden</td>
+                        <td>
+                            <tip><p>Zeggen deze termen je nog niets? Geen probleem, dat komt vanzelf!</p></tip>
+                            <p>%product% kent twee manieren om je exercise in te leveren:</p>
+                            <list>
+                                <li>Handmatig: via file-upload in je browser</li>
+                                <li>Git: via het versiebeheersysteem git</li>
+                            </list>
+                            <p>De 'handmatig uploaden' eigenschap geeft 'ja' aan als je handmatig kan uploaden.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Vereiste credits</td>
+                        <td><p>Als een exercise gereviewed moet worden door een mede-student, dan kost het inleveren van
+                            die exercise een credit. Of dit
+                            het geval is, kan je teruglezen in deze eigenschap.</p>
+                            <p>Meer informatie over credits vind je hier: Credits (TODO)</p></td>
+                    </tr>
+                    <tr>
+                        <td>Team</td>
+                        <td>Hier staat met wie je in het team zit voor deze exercise. Vaak doe je exercises alleen dus
+                            staat alleen je eigen naam hier, maar
+                            bij teamopdrachten staan hier al je teamgenoten.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Online bitters</td>
+                        <td><p>Als de chat-feature ingeschakeld is, kan je hier zien welke andere %students% bezig zijn
+                            met deze exercise. Je kan op
+                            de naam van een %student% klikken om direct een chat-venster te openen.</p>
+                            <p><b>Zit je vast bij een exercise?</b> Maak dan zeker gebruik van je mede-%students%!</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <p>Bij praktijk opdrachten staat in de omschrijving welke stappen je gaat doorlopen.
+                    Deze stappen zouden je naar de verwachte uitkomst moeten leiden. De stappen staan altijd toegelicht
+                    in een zogeheten 'steps' block. Dit blok kan je
+                    herkennen aan de blauw/groene achtergrond.</p>
+                <img src="exercise-steps.png" alt="Exercise steps"/>
+
+                <chapter title="Inleveren" id="exercise-hand-in">
+                    <p>Zodra je een exercise klaar hebt, kan je deze inleveren. Dit doe je via de 'Inleveren' knop in %product%.</p>
+                        <img src="exercise-hand-in.png" alt="Exercise hand in"/>
+                    <p> Er gebeuren dan automatisch een aantal controles:</p>
+                    <procedure>
+                        <step>
+                            <p>Er wordt gecontroleerd of je alle vereiste bestanden hebt ingeleverd. Is dit niet het geval, dan slaagt je inlever poging niet.</p>
+                            <tip>
+                                <p>Faalt je inlever poging omdat %product% aangeeft dat niet alle bestanden aanwezig zijn, maar weet je zeker dat je alle bestanden hebt ingeleverd?
+De volgende fouten zijn meestal de oorzaak:</p>
+                                <list>
+                                    <li>Er zit een verschil in hoofdlettergebruik tussen de bestanden. Als %product% <b>index.html</b> vereist, maar <b>Index.html</b> wordt ingeleverd, dan wordt dit afgekeurd.</li>
+                                    <li>Gebruik je Google translate om de pagina's te vertalen? Zit dit dan tijdelijk uit. Als %product% <b>tafel.html</b> verwacht kan Google translate dit laten zien als <b>table.html</b>.</li>
+                                </list>
+                            </tip>
+                        </step>
+                        <step>Je uitwerking wordt door BLAST gecontroleerd. Lees hier meer informatie over Blast: <a href="Blast.topic">TODO</a></step>
+                        <step>Er wordt een review aangemaakt voor jouw uitwerking. Een mede-%student% of coach pakt deze review op.</step>
+                    </procedure>
+                    <p>Als het inleveren is geslaagd kan je beginnen met de volgende exercise. Dit is ongeacht of je huidige exercise gereviewed
+                    moet worden door een mede-%student%. Om te voorkomen dat je vaak moet wachten, mag je altijd een aantal exercise vooruit werken.</p>
+                </chapter>
+
+            </chapter>
+                <chapter title="Self diagnostic" id="self-diagnostic">
+                    <p>Self diagnostics zijn speciale exercises, waarbij je een kleine quiz maakt om te testen of je een bepaald onderwerp echt snapt.</p>
+                    <img src="exercise-self-diagnostic-example.png" alt="Self Diagnostic example"/>
+                    <p>Self diagnostics worden gebruikt bij meer theoretische onderwerpen, of onderwerpen die zich niet goed in
+                        de praktijk laten
+                        toetsen.</p>
+                    <p>Self diagnostics starten met een scenario en resultaat, waarna verschillende soorten vragen
+                        gesteld kunnen worden.</p>
+                    <p>Er zijn drie type vragen:</p>
+                    <table>
+                        <tr>
+                            <td>Type</td>
+                            <td>Omschrijving</td>
+                        </tr>
+                        <tr>
+                            <td>Multiple choice</td>
+                            <td><p>Je zoekt het
+                                <emphasis>meest</emphasis>
+                                correcte antwoord bij een vraag.Het scenario kan ook een leeg veld bevatten,
+                                bijvoorbeeld <code>BLANK1</code>. Jij kan hier bepalen wat in het veld moet om bij
+                                het resultaat uit te komen</p>
+                                <img src="exercise-self-diagnostic-mutliple-choice.png" alt="Multiple choice" border-effect="line"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Connect the dots</td>
+                            <td>
+                                <p>Links staan een aantal items, met rechts open plekken. Sleep de items boven naar de
+                                    goede plek, bijvoorbeeld Server -&gt; Client</p>
+                                <img src="exercise-self-diagnostic-connect.png" alt="Multiple choice" border-effect="line"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fill in the blank</td>
+                            <td><p>Je krijgt een zin met missende onderdelen. Vul deze gaten in om een goede zin te
+                                krijgen. Zorg ervoor dat je ook de goede termen uit voorgaande exercises gebruikt.</p>
+                                <img src="exercise-self-diagnostic-blanks.png" alt="Multiple choice" border-effect="line" />
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p>Na het afronden van een self diagnostic krijg je direct te zien of hij succesvol is afgerond. Als je de self diagnostic succesvol hebt afgerond, kan je
+                    verder met de volgende exercise. Heb je een self diagnostic <b>niet behaald</b> dan zijn er verschillende opties (op basis van de instellingen van je omgeving): </p>
+                    <table style="header-column">
+                        <tr>
+                            <td>Zelf nakijken</td>
+                            <td><p>Als deze optie aanstaat, kan je de self diagnostic zelf nakijken. Je kan dit doen door in de dialog optie na het afronden van je self diagnostic te kiezen voor de optie: "Zelf reviewen".</p>
+                                <img src="exercise-self-diagnostic-failed-dialog.png" alt="Failed self diagnostic dialog" border-effect="line"/>
+                                <p>
+                            Je ziet nu precies welke vragen je goed en fout had. Bestuur je foute antwoorden nog eens goed, en zodra je er weer klaar voor bent, klik je rechts bovenin op de 'Opnieuw proberen' knop om je self
+                            diagnostic te herstarten.</p>
+                                <img src="exercise-self-diagnostic-retry.png" alt="Retry self diagnostic" border-effect="line"/></td>
+                        </tr>
+                        <tr>
+                            <td>Door coach laten nakijken</td>
+                            <td><p>Een andere optie is dat je de self diagnostic door een coach laat nakijken. De dialog die je te zijn krijgt na het afronden van je self diagnostic geeft dit dan aan.</p>
+                                    <img src="exercise-self-diagnostic-coach-review.png" alt="Self diagnostic dialog" border-effect="line"/>
+                                <p>Je coach kan inzien welke vragen je goed/fout had en de self diagnostic weer voor je openen.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </chapter>
+
+        </chapter>
+    </snippet>
+
+</topic>
