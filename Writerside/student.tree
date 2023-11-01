@@ -7,11 +7,16 @@
                  start-page="Welkom.topic">
 
     <toc-element topic="Welkom.topic"/>
-    <toc-element topic="Universum.topic"/>
+    <toc-element topic="Universum.topic">
+        <toc-element topic="Tracks.topic"/>
+    </toc-element>
     <toc-element topic="Modules.topic"/>
-    <toc-element topic="student.md">
+    <toc-element topic="Exercises.topic">
         <toc-element topic="Status.topic"/>
         <toc-element topic="Blast.topic"/>
         <toc-element topic="Credits.topic"/>
+    </toc-element>
+    <toc-element topic="Reviews.topic">
+        <toc-element topic="Steekproeven.topic"/>
     </toc-element>
 </instance-profile>

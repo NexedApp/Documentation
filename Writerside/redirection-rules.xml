@@ -10,4 +10,8 @@
         <description>Created after removal of "Empty MD Topic" from Shared</description>
         <accepts>Empty-MD-Topic.html</accepts>
     </rule>
+    <rule id="2a37d58a">
+        <description>Created after removal of "Tracks" from Student</description>
+        <accepts>Tracks.html</accepts>
+    </rule>
 </rules>

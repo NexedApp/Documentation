@@ -15,8 +15,20 @@
         <spotlight>
             <a href="Universum.topic"
                description="Alle informatie over het universum" type="start"/>
-            <a href="student.md"
+            <a href="Exercises.topic"
                description="Alle informatie over exercises!" type="search"/>
         </spotlight>
+
+        <primary>
+            <title>BLAST</title>
+            <a href="Blast.topic"
+               description="Meer weten over je BLAST meldingen?"/>
+        </primary>
+
+        <secondary>
+            <title>Credits</title>
+            <a href="Credits.topic"
+               description="Snap je nog niet precies hoe Credits werken? Kijk eens hier!"/>
+        </secondary>
     </section-starting-page>
 </topic>

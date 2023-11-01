@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Tracks" id="Tracks">
+
+    <tip><p>Zie je geen tracks in het universum? Dan kan het zijn dat deze feature uit staat voor jouw opleiding of dat er geen tracks zijn opgezet.</p></tip>
+
+    <p>Een track is een reeks van modules die samen een studierichting aangeven. Tracks worden gebruikt om een bepaalde cursus of opleiding te benadrukken. Elke track heeft
+    een enkele start module waarna de track gestart kan worden. </p>
+    <p>In dit universum moet je bijvoorbeeld eerst <code>PHP - Beginner</code> afronden om de track te starten.
+        Hierna moet je de modules: <code>HTML / CSS - Beginner</code>, <code>HTML / CSS - Geavanceerd</code>, <code>JavaScript
+            - Beginner</code> en <code>JavaScript - Geavanceerd</code> afronden om de track te voltooien. Dit kan je zien doordat deze modules een gele gloed hebben.</p>
+    <img src="track.png" alt="Frontend track"/>
+    <chapter title="Track manen in een baan om de module" id="track-manen-in-een-baan-om-de-module">
+        <p>Om aan te geven waar een track begint in het universum, draaien er manen rond de module waar de track gestart
+            kan worden. Vanaf de <code>PHP - Beginner</code> module kunnen bijvoorbeeld 3 tracks gestart worden. </p>
+        <img src="module-track-moons.png" alt="Module met track manen"/>
+        <p>Je kan op één van de manen klikken om te zien welke tracks vanuit die module gestart kunnen worden.</p>
+        <img src="track-picker-dialog.png" alt="Tracks die gestart kunnen worden vanuit module"/>
+    </chapter>
+    <chapter title="Een track selecteren" id="een-track-selecteren">
+        <p>Als je een module hebt afgerond waar een track gestart kan worden, krijg je een dialog om een track te
+            kiezen. Deze keuze kan je later altijd wijzigen. Nadat je een track hebt gekozen, lichten de benodigde modules op met een gele kleur.</p>
+        <img src="track-picker-dialog-2.png" alt="Een track kiezen"/>
+        <p>
+            <control>Goed om te weten:</control>
+        </p>
+        <list>
+            <li>Je kunt de track waaraan je werkt altijd wijzigen door een track te selecteren met behulp van het drop
+                down menu rechtsboven in het universum.
+            </li>
+        </list>
+    </chapter>
+    <chapter title="Certificaat" id="certificaat">
+        <p>Zodra je een track hebt voltooid, krijg je de optie om een nieuwe track te selecteren.
+            In dit venster kan je ook direct het certificaat downloaden van de zojuist afgeronde track.</p>
+            <p>Je kan het certificaat ook downloaden door het gebruikersmenu rechtsboven te openen en 'Certificaten' te
+            selecteren.</p>
+        <img src="user-menu-certificate.png" alt="User menu certificate"/>
+    </chapter>
+
+</topic>

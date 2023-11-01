@@ -9,7 +9,7 @@
 
     <p>Bovenin de menubalk kan je jouw huidige credit balans zien: </p>
     <img src="credits.png" alt="Credits"/>
-
+    <p>Je kan maximaal 5 credits hebben.</p>
     <p>Het doen van reviews van de uitwerkingen van mede-%students% is een cruciaal onderdeel van het leren van een nieuwe vaardigheid. Door het reviewen
     leer je niet alleen zelf een oplossing te maken, maar ook die van een ander te beoordelen. Je doet inspiratie op (omdat de uitwerking compleet anders
     kan zijn dat je eigen uitwerking) en leert feedback te geven. </p>
@@ -17,7 +17,7 @@
     dat er ook voldoende reviews worden uitgevoerd, zijn credits geïntroduceerd.</p>
     <chapter title="Opzet" id="credits-flow">
         De basis opzet is als volgt: elk nieuw account begint met <b>3 credits</b>. Het inleveren van een exercise die gereviewed moet worden door een mede-%student% kost <b>1 credit</b>. Het doen
-        van een review (ongeacht de uitkomst) levert de reviewer <b>1 credit</b> op. Als je geen credits meer hebt, moet je eerst reviews uitvoeren, voordat je weer exercises kan inleveren.
+        van een <a href="Reviews.topic">review</a> (ongeacht de uitkomst) levert de reviewer <b>1 credit</b> op. Als je geen credits meer hebt, moet je eerst reviews uitvoeren, voordat je weer exercises kan inleveren.
     </chapter>
     <chapter title="Uitzonderingen" id="credits-uitzonderingen">
         <table>

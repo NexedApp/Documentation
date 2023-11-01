@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Reviews" id="Reviews">
+
+    <p>Als %student% leer je door <a href="Exercises.topic">exercises</a> te doen, maar je leert ook door te zien hoe
+        andere
+        %students% een probleem hebben opgelost. Dit is waar reviewen om de hoek komt kijken. Bij het reviewen
+        kijk jij de uitwerking van een mede-%student% na. </p>
+
+    <img src="review-overview.png" alt="Review Overview"/>
+
+    <p>Via het menu-item <b>Reviews</b> kom je bij bovenstaand overzicht van reviews die beschikbaar zijn.
+        Afhankelijk van de instellingen van je opleider kun je zelf een review kiezen of kan je er willekeurig één
+        oppakken.
+    </p>
+    <p>Als %student% kan je exercises reviewen die je in het verleden hebt afgerond of tenminste één keer hebt
+        ingeleverd.</p>
+
+    <chapter title="Reviews doen" id="reviews-doen">
+        <p>Wanneer je een review hebt opgepakt, zie je het volgende scherm:</p>
+        <img src="review-single.png" alt="enkele recensie"/>
+        <p>Met behulp van de knoppen <b>Repository</b> of <b>Zip</b> kan je bij de uitwerking komen.
+        </p>
+        <p>Naast basisinformatie over de review zie je ook de review checklist. Dit dient als leidraad om te weten waar
+            je op moet letten. Let op: hoe ingewikkelder de exercise, hoe meer checklist items er zullen zijn.
+        </p>
+        <p>Doorloop de checklist om te zien of de andere %student% de oefening goed heeft gedaan.
+            Je kan elk item afvinken terwijl je bezig bent.</p>
+        <p>Heeft de andere %student% alles op de checklist correct uitgewerkt in de exercise?
+            Klik dan op accepteren, waarna de andere %student% verder kan.</p>
+        <p>Heeft de andere %student% een fout gemaakt bij de exercise? Klik dan op de knop Issues en maak een
+            issue aan in Git. In de issue leg je duidelijk uit aan de andere %student% wat er niet goed is en wat ze
+            moeten verbeteren. Druk daarna op de
+            knop "heeft verbetering nodig". Hierdoor wordt de exercise opnieuw geopend.
+        </p>
+        <note><p>
+            Review opgepakt, koffie gaan halen en vergeten af te ronden?
+            Kan helaas gebeuren, maar dit is niet fijn voor je mede-%students%.
+            Om dit probleem tegen te gaan worden reviews na 2 uur automatisch weer vrijgegeven.
+        </p></note>
+    </chapter>
+
+    <chapter title="Beperkingen" id="beperkingen">
+        <p>Om 'valsspelen' te voorkomen en goed gedrag te promoten zit er een aantal restricties op het uitvoeren van
+            reviews.</p>
+        <list>
+            <li>Als je een review doet terwijl je al 5 credits hebt, dan ontvang je geen credits meer.</li>
+            <li><p>Als je telkens dezelfde persoon nakijkt, word je vaak een beetje laks en minder scherp na een aantal
+                reviews. Als reviewer kan je daarom een bepaalde auteur niet te vaak achter elkaar reviewen!</p>
+                <tip><p>Voorbeeld: Stel, Piet heeft 6 exercises gemaakt en van deze 6 exercises heeft Stijn er 2
+                    nagekeken.
+                    Nu mag Stijn Piet niet meer reviewen totdat een andere student Piet heeft gereviewed.
+                    Zo komt Stijn in de laatste 6 reviews niet meer dan 2 keer voor!</p></tip>
+            </li>
+        </list>
+    </chapter>
+
+    <chapter title="Beloning" id="beloning">
+        <p>Naast het opdoen van kennis, krijg je na het uitvoeren van een review ook nog een andere beloning: je krijgt <b>1 credit</b> per review. Je
+        krijgt deze credit ongeacht of de uitkomst van de review positief of negatief is.</p>
+        <p>Lees hier meer over credits: <a href="Credits.topic">Credits</a></p>
+    </chapter>
+
+
+</topic>

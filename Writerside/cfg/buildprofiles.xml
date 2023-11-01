@@ -6,8 +6,5 @@
     <build-profile instance="student"/>
     <footer>
         <copyright>Nexed 2022-2023</copyright>
-        <link href="https://www.nexed.com">Nexed</link>
-        <link href="https://app.nexed.com">Login</link>
-        <link href="https://github.com/BitAcademyDev/documentation">Contributing</link>
     </footer>
 </buildprofiles>

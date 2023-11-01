@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Modules" id="Modules">
 
-    <p>De kleinste leereenheid binnen %product% is een <b>Exercise</b>. <a href="student.md">Exercises</a> leren je
+    <p>De kleinste leereenheid binnen %product% is een <b>Exercise</b>. <a href="Exercises.topic">Exercises</a> leren je
         nieuwe vaardigheden aan of laten
         je extra oefenen met bepaalde concepten. Een verzameling van Exercises is een <b>Level</b>. De exercises binnen
         een level kunnen op
