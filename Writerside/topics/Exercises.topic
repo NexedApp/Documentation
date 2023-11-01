@@ -279,10 +279,38 @@
     </snippet>
 
     <snippet id="statussen">
-        <chapter title="Statussen" id="statussen">
+        <tip><p>De statussen zijn alleen van toepassing op praktijk exercises.</p></tip>
+        <chapter title="Overzicht" id="status-overzicht">
             <p>Exercises kunnen zich in verschillende statussen bevinden. Je kan de status van verschillende exercises
                 zien via het level scherm.</p>
             <img src="level-overview.png" alt="Level overview" border-effect="line"/>
+            <p>Het veranderen tussen de verschillende statussen gebeurd via een vaste flow.</p>
+            <code-block lang="mermaid">
+                stateDiagram-v2
+                [*] --> GB
+                [*] --> GS
+                GB --> Beschikbaar
+                GS --> Beschikbaar
+                Beschikbaar --> AC
+                Beschikbaar --> WOT
+                WOT --> AC
+                AC --> AF
+                AC --> WOR
+                WOR --> AF
+                WOR --> OVV
+                OVV --> WOR
+                AF --> [*]
+
+                WOT: Wachten op team
+                GS: Gesloten
+                GB: Geblokkeerd
+                AC: Actief
+                WOR: Wachten op review
+                OVV: Open voor verbeteringen
+                AF: Afgerond
+            </code-block>
+        </chapter>
+        <chapter title="Details" id="status-details">
             <p>Hieronder staan de verschillende statussen benoemd en welke actie er moet gebeuren om de status te
                 veranderen.</p>
             <table>
@@ -309,7 +337,7 @@
                     <td>Deze exercise is om externe redenen geblokkeerd</td>
                     <td><p>Er zijn meerdere mogelijke oorzaken voor deze status.</p>
                         <list type="decimal">
-                            <li>Te veel exercises in deze module hebben de status 'wachten op review'. </li>
+                            <li>Te veel exercises in deze module hebben de status 'wachten op review'. In de meeste modules mag je maximaal <b>7</b> exercises tegelijk open hebben.</li>
                             <li>Een exercise in deze module heeft de status 'open voor verbeteringen'. </li>
                         </list>
                     </td>

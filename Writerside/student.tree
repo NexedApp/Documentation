@@ -8,6 +8,7 @@
 
     <toc-element topic="Welkom.topic"/>
     <toc-element topic="student.md">
+        <toc-element topic="Status.topic"/>
         <toc-element topic="Blast.topic"/>
         <toc-element topic="Credits.topic"/>
     </toc-element>
