@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Modules" id="Modules">
+
+    <p>De kleinste leereenheid binnen %product% is een <b>Exercise</b>. <a href="student.md">Exercises</a> leren je
+        nieuwe vaardigheden aan of laten
+        je extra oefenen met bepaalde concepten. Een verzameling van Exercises is een <b>Level</b>. De exercises binnen
+        een level kunnen op
+        elkaar voortbouwen en gaan vaak over hetzelfde onderwerp. Een <b>Module</b> is een verzameling van één of meer
+        levels. Modules gaan over een enkel onderwerp/domein zoals bijvoorbeeld HTML, Reguliere Expressies of
+        Visualiseren met Python.
+    </p>
+    <p>
+        Meerdere modules samen vormen een <b><a href="Universum.topic">Universum</a>.</b> Het universum is de omgeving
+        waar je alle modules ziet en ziet hoe ze aan elkaar hangen.</p>
+
+    <img src="universe-abstract.png" alt="Universe opbouw" border-effect="line" width="700"/>
+
+    <chapter title="Starten" id="starten">
+        <p>Om te kunnen starten met een module moet je eerst ingeschreven zijn voor een module. Dit kan je zelf
+        doen via het universum. Je kan bij zoveel modules tegelijk ingeschreven staat als je wilt, hier zit geen limiet aan.</p>
+        <note><p>Inschrijven voor een module is puur een administratieve handeling. Je gaat hierbij geen
+        verplichten aan om de module af te maken. </p></note>
+        <p>Nadat je bent ingeschreven voor een module, kom je in het module-detail scherm. Hier zie je een overzicht van de levels en exercises
+        binnen de module. Zoals op onderstaande afbeelding is te zien, is de eerste exercise in de module automatische beschikbaar. Door op de 'Start'
+        knop te klikken kan je direct starten met leren!</p>
+        <img src="level-overview.png" alt="Level overview" width="700"/>
+        <p>Een module is afgerond zodra alle exercises in reguliere levels binnen de module afgerond zijn.</p>
+    </chapter>
+
+    <chapter title="Levels" id="levels">
+        <p>Een module bestaat uit één of meerdere levels. Elk level is georiënteerd rond een bepaald concept. Exercises
+        binnen een level kunnen voortbouwen op de uitwerkingen van elkaar.</p>
+        <p>Er zijn verschillende type levels:</p>
+        <table>
+            <tr>
+                <td>Type</td>
+                <td>Doel</td>
+                <td>Verplicht voor afronden module?</td>
+            </tr>
+            <tr>
+                <td>Regulier</td>
+                <td>Dit is het standaard level</td>
+                <td>Ja</td>
+            </tr>
+            <tr>
+                <td>Challenge</td>
+                <td>De exercises in dit level zijn extra moeilijk gemaakt om je goed uit te dagen. Het kan zijn dat er in
+                deze exercises technieken langskomen die nog niet eerder behandeld zijn. Goed nadenken en veel opzoeken
+                is hier cruciaal!</td>
+                <td>Nee</td>
+            </tr>
+            <tr>
+                <td>Practice</td>
+                <td><p>De exercises in dit level zijn bedoeld om extra te oefenen. Je kan zelf uitkiezen welke exercises je wilt maken en het afronden
+                van deze exercises is niet verplicht. Exercises in dit level type worden <b>niet</b> gereviewed.</p>
+                <p><b>Uitzondering:</b> Een coach kan exercises uit dit level verplicht maken voor een %student%, bijvoorbeeld na het niet halen van een self diagnostic. In
+                dit geval wordt de exercise wel gereviewed.</p></td>
+                <td>Nee</td>
+            </tr>
+        </table>
+    </chapter>
+
+    <chapter title="Certificaten" id="certificaten">
+        <p>Het afronden van specifieke modules levert je een certificaat op. Het certificaat is te downloaden op de module detail pagina na het succesvol afronden
+        van een module. Boven in de pagina verschijnt dan de 'Download certificaat' knop. Na het klikken op de knop krijg je jouw certificate als PDF-document.</p>
+        <img src="certificate-download.png" alt="Certificate download button" width="700"/>
+        <note><p>Zie je deze knop niet? Dan staat waarschijnlijk de 'certificaat download' feature uit voor jouw locatie. Vraag je locatie administrator
+        om deze in te schakelen.</p></note>
+    </chapter>
+
+    <chapter title="Delen op LinkedIn" id="share">
+        <p>Na het afronden van specifieke modules kan je deze delen op LinkedIn</p>
+        <img src="linkedin-share.png" alt="LinkedIn share button" width="700"/>
+        <note><p>Zie je deze knop niet? Dan staat waarschijnlijk de 'share' feature uit voor jouw locatie. Vraag je locatie administrator
+        om deze in te schakelen.</p></note>
+    </chapter>
+</topic>

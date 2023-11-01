@@ -7,6 +7,8 @@
                  start-page="Welkom.topic">
 
     <toc-element topic="Welkom.topic"/>
+    <toc-element topic="Universum.topic"/>
+    <toc-element topic="Modules.topic"/>
     <toc-element topic="student.md">
         <toc-element topic="Status.topic"/>
         <toc-element topic="Blast.topic"/>

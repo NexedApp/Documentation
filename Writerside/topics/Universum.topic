@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Universum" id="Universum" help-id="Opbouw">
+
+    <p>Het universum - de start plek van je avontuur. </p>
+
+    <p>In het universum kan je in één oogopslag al je modules en hun voortgang bekijken. Je kan in- en uitzoomen en
+        door te klikken op een module die module bekijken.
+        Universums komen in verschillende vormen en maten, maar zijn altijd speciaal ingericht om jouw leerpad te optimaliseren.</p>
+
+    <video src="universe.mp4" preview-src="universe.png" title="Universe video" />
+
+    <chapter title="Navigeren" id="universe-navigeren">
+        <p>Er zijn aantal snelkoppelingen en bedieningselementen geïmplementeerd om het universum te bekijken en te navigeren.
+            Deze bedieningselementen zijn te vinden in de tabel linksonder met de naam <emphasis>'Snelkoppelingen'</emphasis> bij het bekijken van het universum.
+        </p>
+        
+        <table>
+            <tr>
+                <td>Shortcut</td>
+                <td>Actie</td>
+            </tr>
+            <tr>
+                <td>R</td>
+                <td>Reset view</td>
+            </tr>
+            <tr>
+                <td>CTRL + F</td>
+                <td>Zoeken naar exercise</td>
+            </tr>
+            <tr>
+                <td>Scroll</td>
+                <td>In- en uitzoomen</td>
+            </tr>
+            <tr>
+                <td>Klik + slepen</td>
+                <td>Rond bewegen</td>
+            </tr>
+        </table>
+    </chapter>
+
+    <chapter title="Modules" id="universe-modules">
+        <p>Het universum is opgebouwd uit verschillende modules die aan elkaar gekoppeld zijn. Een 'pijl' tussen de modules
+        geeft aan dat om een module te kunnen starten, de voorafgaande module eerst afgerond moet worden.</p>
+
+        <p>In het universum heeft een module een status.</p>
+        <table>
+            <tr>
+                <td>Status</td>
+                <td>Beschrijving</td>
+                <td>Voorbeeld</td>
+            </tr>
+            <tr>
+                <td>Beschikbaar</td>
+                <td>De module is beschikbaar om te starten</td>
+                <td><img src="module-beschikbaar.png" alt="Module beschikbaar" width="125"/></td>
+            </tr>
+            <tr>
+                <td>Gestart</td>
+                <td>Je bent ingeschreven voor deze module en kan de exercises maken</td>
+                <td><img src="module-gestart.png" alt="Module started" width="125"/></td>
+            </tr>
+            <tr>
+                <td>Afgerond</td>
+                <td>Je hebt de module afgerond en kan met de volgende starten</td>
+                <td><img src="module-afgerond.png" alt="Module completed" width="125"/></td>
+            </tr>
+            <tr>
+                <td>Gesloten</td>
+                <td>De module is nog niet beschikbaar gemaakt binnen %product%.</td>
+                <td><img src="module-gesloten.png" alt="Module closed" width="125"/></td>
+            </tr>
+        </table>
+
+        <p>In het universum kan een module naast een status ook bepaalde attributen hebben.</p>
+        <table>
+            <tr>
+                <td>Attribuut</td>
+                <td>Beschrijving</td>
+                <td>Voorbeeld</td>
+            </tr>
+            <tr>
+                <td>Certificaat</td>
+                <td>Als er een certificaat beschikbaar is voor de module, wordt dit weergegeven door een kleine gele
+                    cirkel met een certificaatpictogram linksboven in een module.
+                </td>
+                <td><img src="module-certificate.png" alt="Module certificate" width="125"/></td>
+            </tr>
+            <tr>
+                <td>Opleidingsniveau</td>
+                <td>Als het opleidingsniveau van een module
+                    <emphasis>'Intermediate'</emphasis>
+                    of
+                    <emphasis>'Advanced'</emphasis>
+                    is, wordt dit weergegeven door een kleine rode cirkel, met een
+                    <emphasis>'+'</emphasis>
+                    of
+                    <emphasis>'++'</emphasis>
+                    rechtsboven van een module.
+                </td>
+                <td><img src="module-education-level.png" alt="Module education level" width="125"/></td>
+            </tr>
+            <tr>
+                <td>Track manen</td>
+                <td>Wanneer een track gestart kan worden vanuit een module, zal het een maan
+                    in een baan eromheen krijgen. Deze maan stelt de track voor die gestart kan worden vanuit de module.Je
+                    kunt op een van de manen klikken om te zien welke tracks gestart kunnen worden vanuit de module.
+                    Vanuit deze module kan de student bijvoorbeeld drie tracks starten.
+                </td>
+                <td><img src="module-track-moons.png" alt="Module orbiting track moons" width="125"/></td>
+            </tr>
+        </table>
+
+    </chapter>
+</topic>

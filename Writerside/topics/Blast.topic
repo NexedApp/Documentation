@@ -94,4 +94,9 @@
             <note>Snap je een foutmelding niet? Vraag het dan aan je coach. Foutmeldingen kunnen voor nieuwe %students% soms lastig te lezen zijn!</note>
         </chapter>
     </chapter>
+
+    <chapter title="Limieten" id="blast-limits">
+        <p>Om misbruik van BLAST te voorkomen en 'gokken' van uitwerkingen tegen te gaan, zit er een limiet op het aanleveren inleverpoging per 10 minuten.</p>
+        <p>Zodra je tegen dit limiet bent aangelopen, geeft %product% hier tijdens het inleveren een melding over.</p>
+    </chapter>
 </topic>
