@@ -134,7 +134,7 @@
                         <td><p>Als een exercise gereviewed moet worden door een mede-student, dan kost het inleveren van
                             die exercise een credit. Of dit
                             het geval is, kan je teruglezen in deze eigenschap.</p>
-                            <p>Meer informatie over credits vind je hier: Credits (TODO)</p></td>
+                            <p>Meer informatie over credits vind je hier: <a href="Credits.topic">Credits</a></p></td>
                     </tr>
                     <tr>
                         <td>Team</td>
@@ -160,93 +160,202 @@
                 <img src="exercise-steps.png" alt="Exercise steps"/>
 
                 <chapter title="Inleveren" id="exercise-hand-in">
-                    <p>Zodra je een exercise klaar hebt, kan je deze inleveren. Dit doe je via de 'Inleveren' knop in %product%.</p>
-                        <img src="exercise-hand-in.png" alt="Exercise hand in"/>
+                    <p>Zodra je een exercise klaar hebt, kan je deze inleveren. Dit doe je via de 'Inleveren' knop in
+                        %product%.</p>
+                    <img src="exercise-hand-in.png" alt="Exercise hand in"/>
                     <p> Er gebeuren dan automatisch een aantal controles:</p>
                     <procedure>
                         <step>
-                            <p>Er wordt gecontroleerd of je alle vereiste bestanden hebt ingeleverd. Is dit niet het geval, dan slaagt je inlever poging niet.</p>
+                            <p>Er wordt gecontroleerd of je alle vereiste bestanden hebt ingeleverd. Is dit niet het
+                                geval, dan slaagt je inlever poging niet.</p>
                             <tip>
-                                <p>Faalt je inlever poging omdat %product% aangeeft dat niet alle bestanden aanwezig zijn, maar weet je zeker dat je alle bestanden hebt ingeleverd?
-De volgende fouten zijn meestal de oorzaak:</p>
+                                <p>Faalt je inlever poging omdat %product% aangeeft dat niet alle bestanden aanwezig
+                                    zijn, maar weet je zeker dat je alle bestanden hebt ingeleverd?
+                                    De volgende fouten zijn meestal de oorzaak:</p>
                                 <list>
-                                    <li>Er zit een verschil in hoofdlettergebruik tussen de bestanden. Als %product% <b>index.html</b> vereist, maar <b>Index.html</b> wordt ingeleverd, dan wordt dit afgekeurd.</li>
-                                    <li>Gebruik je Google translate om de pagina's te vertalen? Zit dit dan tijdelijk uit. Als %product% <b>tafel.html</b> verwacht kan Google translate dit laten zien als <b>table.html</b>.</li>
+                                    <li>Er zit een verschil in hoofdlettergebruik tussen de bestanden. Als %product% <b>index.html</b>
+                                        vereist, maar <b>Index.html</b> wordt ingeleverd, dan wordt dit afgekeurd.
+                                    </li>
+                                    <li>Gebruik je Google translate om de pagina's te vertalen? Zit dit dan tijdelijk
+                                        uit. Als %product% <b>tafel.html</b> verwacht kan Google translate dit laten
+                                        zien als <b>table.html</b>.
+                                    </li>
                                 </list>
                             </tip>
                         </step>
-                        <step>Je uitwerking wordt door BLAST gecontroleerd. Lees hier meer informatie over Blast: <a href="Blast.topic">TODO</a></step>
-                        <step>Er wordt een review aangemaakt voor jouw uitwerking. Een mede-%student% of coach pakt deze review op.</step>
+                        <step>Je uitwerking wordt door BLAST gecontroleerd. Lees hier meer informatie over Blast: <a
+                                href="Blast.topic">Blast</a></step>
+                        <step>Er wordt een review aangemaakt voor jouw uitwerking. Een mede-%student% of coach pakt deze
+                            review op.
+                        </step>
                     </procedure>
-                    <p>Als het inleveren is geslaagd kan je beginnen met de volgende exercise. Dit is ongeacht of je huidige exercise gereviewed
-                    moet worden door een mede-%student%. Om te voorkomen dat je vaak moet wachten, mag je altijd een aantal exercise vooruit werken.</p>
+                    <p>Als het inleveren is geslaagd kan je beginnen met de volgende exercise. Dit is ongeacht of je
+                        huidige exercise gereviewed
+                        moet worden door een mede-%student%. Om te voorkomen dat je vaak moet wachten, mag je altijd een
+                        aantal exercise vooruit werken.</p>
                 </chapter>
 
             </chapter>
-                <chapter title="Self diagnostic" id="self-diagnostic">
-                    <p>Self diagnostics zijn speciale exercises, waarbij je een kleine quiz maakt om te testen of je een bepaald onderwerp echt snapt.</p>
-                    <img src="exercise-self-diagnostic-example.png" alt="Self Diagnostic example"/>
-                    <p>Self diagnostics worden gebruikt bij meer theoretische onderwerpen, of onderwerpen die zich niet goed in
-                        de praktijk laten
-                        toetsen.</p>
-                    <p>Self diagnostics starten met een scenario en resultaat, waarna verschillende soorten vragen
-                        gesteld kunnen worden.</p>
-                    <p>Er zijn drie type vragen:</p>
-                    <table>
-                        <tr>
-                            <td>Type</td>
-                            <td>Omschrijving</td>
-                        </tr>
-                        <tr>
-                            <td>Multiple choice</td>
-                            <td><p>Je zoekt het
+            <chapter title="Self diagnostic" id="self-diagnostic">
+                <p>Self diagnostics zijn speciale exercises, waarbij je een kleine quiz maakt om te testen of je een
+                    bepaald onderwerp echt snapt.</p>
+                <img src="exercise-self-diagnostic-example.png" alt="Self Diagnostic example"/>
+                <p>Self diagnostics worden gebruikt bij meer theoretische onderwerpen, of onderwerpen die zich niet goed
+                    in
+                    de praktijk laten
+                    toetsen.</p>
+                <p>Self diagnostics starten met een scenario en resultaat, waarna verschillende soorten vragen
+                    gesteld kunnen worden.</p>
+                <p>Er zijn drie type vragen:</p>
+                <table>
+                    <tr>
+                        <td>Type</td>
+                        <td>Omschrijving</td>
+                    </tr>
+                    <tr>
+                        <td>Multiple choice</td>
+                        <td>
+                            <p>Je zoekt het
                                 <emphasis>meest</emphasis>
                                 correcte antwoord bij een vraag.Het scenario kan ook een leeg veld bevatten,
                                 bijvoorbeeld <code>BLANK1</code>. Jij kan hier bepalen wat in het veld moet om bij
-                                het resultaat uit te komen</p>
-                                <img src="exercise-self-diagnostic-mutliple-choice.png" alt="Multiple choice" border-effect="line"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Connect the dots</td>
-                            <td>
-                                <p>Links staan een aantal items, met rechts open plekken. Sleep de items boven naar de
-                                    goede plek, bijvoorbeeld Server -&gt; Client</p>
-                                <img src="exercise-self-diagnostic-connect.png" alt="Multiple choice" border-effect="line"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Fill in the blank</td>
-                            <td><p>Je krijgt een zin met missende onderdelen. Vul deze gaten in om een goede zin te
-                                krijgen. Zorg ervoor dat je ook de goede termen uit voorgaande exercises gebruikt.</p>
-                                <img src="exercise-self-diagnostic-blanks.png" alt="Multiple choice" border-effect="line" />
-                            </td>
-                        </tr>
-                    </table>
+                                het resultaat uit te komen
+                            </p>
+                            <img src="exercise-self-diagnostic-mutliple-choice.png" alt="Multiple choice"
+                                 border-effect="line"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Connect the dots</td>
+                        <td>
+                            <p>Links staan een aantal items, met rechts open plekken. Sleep de items boven naar de
+                                goede plek, bijvoorbeeld Server -&gt; Client</p>
+                            <img src="exercise-self-diagnostic-connect.png" alt="Multiple choice" border-effect="line"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fill in the blank</td>
+                        <td><p>Je krijgt een zin met missende onderdelen. Vul deze gaten in om een goede zin te
+                            krijgen. Zorg ervoor dat je ook de goede termen uit voorgaande exercises gebruikt.</p>
+                            <img src="exercise-self-diagnostic-blanks.png" alt="Multiple choice" border-effect="line"/>
+                        </td>
+                    </tr>
+                </table>
 
-                    <p>Na het afronden van een self diagnostic krijg je direct te zien of hij succesvol is afgerond. Als je de self diagnostic succesvol hebt afgerond, kan je
-                    verder met de volgende exercise. Heb je een self diagnostic <b>niet behaald</b> dan zijn er verschillende opties (op basis van de instellingen van je omgeving): </p>
-                    <table style="header-column">
-                        <tr>
-                            <td>Zelf nakijken</td>
-                            <td><p>Als deze optie aanstaat, kan je de self diagnostic zelf nakijken. Je kan dit doen door in de dialog optie na het afronden van je self diagnostic te kiezen voor de optie: "Zelf reviewen".</p>
-                                <img src="exercise-self-diagnostic-failed-dialog.png" alt="Failed self diagnostic dialog" border-effect="line"/>
-                                <p>
-                            Je ziet nu precies welke vragen je goed en fout had. Bestuur je foute antwoorden nog eens goed, en zodra je er weer klaar voor bent, klik je rechts bovenin op de 'Opnieuw proberen' knop om je self
-                            diagnostic te herstarten.</p>
-                                <img src="exercise-self-diagnostic-retry.png" alt="Retry self diagnostic" border-effect="line"/></td>
-                        </tr>
-                        <tr>
-                            <td>Door coach laten nakijken</td>
-                            <td><p>Een andere optie is dat je de self diagnostic door een coach laat nakijken. De dialog die je te zijn krijgt na het afronden van je self diagnostic geeft dit dan aan.</p>
-                                    <img src="exercise-self-diagnostic-coach-review.png" alt="Self diagnostic dialog" border-effect="line"/>
-                                <p>Je coach kan inzien welke vragen je goed/fout had en de self diagnostic weer voor je openen.</p>
-                            </td>
-                        </tr>
-                    </table>
-                </chapter>
+                <p>Na het afronden van een self diagnostic krijg je direct te zien of hij succesvol is afgerond. Als je
+                    de self diagnostic succesvol hebt afgerond, kan je
+                    verder met de volgende exercise. Heb je een self diagnostic <b>niet behaald</b> dan zijn er
+                    verschillende opties (op basis van de instellingen van je omgeving): </p>
+                <table style="header-column">
+                    <tr>
+                        <td>Zelf nakijken</td>
+                        <td><p>Als deze optie aanstaat, kan je de self diagnostic zelf nakijken. Je kan dit doen door in
+                            de dialog optie na het afronden van je self diagnostic te kiezen voor de optie: "Zelf
+                            reviewen".</p>
+                            <img src="exercise-self-diagnostic-failed-dialog.png" alt="Failed self diagnostic dialog"
+                                 border-effect="line"/>
+                            <p>
+                                Je ziet nu precies welke vragen je goed en fout had. Bestuur je foute antwoorden nog
+                                eens goed, en zodra je er weer klaar voor bent, klik je rechts bovenin op de 'Opnieuw
+                                proberen' knop om je self
+                                diagnostic te herstarten.</p>
+                            <img src="exercise-self-diagnostic-retry.png" alt="Retry self diagnostic"
+                                 border-effect="line"/></td>
+                    </tr>
+                    <tr>
+                        <td>Door coach laten nakijken</td>
+                        <td><p>Een andere optie is dat je de self diagnostic door een coach laat nakijken. De dialog die
+                            je te zijn krijgt na het afronden van je self diagnostic geeft dit dan aan.</p>
+                            <img src="exercise-self-diagnostic-coach-review.png" alt="Self diagnostic dialog"
+                                 border-effect="line"/>
+                            <p>Je coach kan inzien welke vragen je goed/fout had en de self diagnostic weer voor je
+                                openen.</p>
+                        </td>
+                    </tr>
+                </table>
+            </chapter>
 
         </chapter>
     </snippet>
 
+    <snippet id="statussen">
+        <chapter title="Statussen" id="statussen">
+            <p>Exercises kunnen zich in verschillende statussen bevinden. Je kan de status van verschillende exercises
+                zien via het level scherm.</p>
+            <img src="level-overview.png" alt="Level overview" border-effect="line"/>
+            <p>Hieronder staan de verschillende statussen benoemd en welke actie er moet gebeuren om de status te
+                veranderen.</p>
+            <table>
+                <tr>
+                    <td>Status</td>
+                    <td>Betekenis</td>
+                    <td>Oorzaak</td>
+                    <td>Actie</td>
+                </tr>
+                <tr>
+                    <td>Beschikbaar</td>
+                    <td>Je kan de exercise starten</td>
+                    <td>-</td>
+                    <td><p>Klik op de knop om de exercise te starten</p><img src="exercise-status-available.png" alt="Exercise available"/></td>
+                </tr>
+                <tr>
+                    <td>Gesloten</td>
+                    <td>Deze exercise is nog niet beschikbaar</td>
+                    <td>De voorafgaande exercises zijn nog niet afgerond</td>
+                    <td>Rond voorgaande exercises af om de exercise te openen</td>
+                </tr>
+                <tr>
+                    <td>Geblokkeerd</td>
+                    <td>Deze exercise is om externe redenen geblokkeerd</td>
+                    <td><p>Er zijn meerdere mogelijke oorzaken voor deze status.</p>
+                        <list type="decimal">
+                            <li>Te veel exercises in deze module hebben de status 'wachten op review'. </li>
+                            <li>Een exercise in deze module heeft de status 'open voor verbeteringen'. </li>
+                        </list>
+                    </td>
+                    <td>
+                        <p>Er zijn meerdere mogelijke oplossingen voor deze status.</p>
+                        <list type="decimal">
+                            <li>Vraag je mede-%students% of je coach om jouw reviews op te pakken. Je kan ondertussen verder werken in een andere module.</li>
+                            <li>Verbeter de exercise met de status 'open voor verbeteringen' en lever deze in.</li>
+                        </list>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Wachten op team</td>
+                    <td>Je hebt de exercise gestart, maar moet nog wachten op teamgenoten</td>
+                    <td>Er zijn nog niet genoeg mede-%students% bij deze exercise om een projectteam te vormen</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Actief</td>
+                    <td>Deze exercise is gestart en nog niet ingeleverd</td>
+                    <td>-</td>
+                    <td>Via de exercise pagina kan je de exercise inleveren</td>
+                </tr>
+                <tr>
+                    <td>Wachten op review</td>
+                    <td>De exercise is ingeleverd, maar nog niet gereviewed</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Open voor verbeteringen</td>
+                    <td>De exercise was nog niet 100% correct en moet verbeterd worden.</td>
+                    <td><p>Er kunnen twee oorzaken zijn voor deze status:</p> <list>
+                        <li>De exercise is gereviewed en afgekeurd.</li>
+                        <li>Een steekproef van deze exercise is negatief bevonden en de exercise moet verbeterd worden.</li>
+                    </list>
+                    </td>
+                    <td>Verbeter de exercise en lever deze opnieuw in</td>
+                </tr>
+                <tr>
+                    <td>Afgerond</td>
+                    <td>De exercise is klaar</td>
+                    <td>De exercise is ingeleverd en er zijn geen fouten gevonden.</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </chapter>
+    </snippet>
 </topic>
